@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed } from "next/font/google";
+import { Oswald } from "next/font/google";
 import ResponsiveNav from "./components/Navgiation/ResponsiveNav";
 import "./globals.css";
 
-const barlow_condensed = Barlow_Condensed({
+const barlow_condensed = Oswald({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  weight: ["200", "300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
