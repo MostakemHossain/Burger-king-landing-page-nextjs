@@ -2,7 +2,7 @@ import Home from "./components/Home";
 
 const HomePage = () => {
   return (
-    <div className="">
+    <div className="bg-[#f4f1ea]">
       <Home />
     </div>
   );
