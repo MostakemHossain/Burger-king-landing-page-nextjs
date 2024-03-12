@@ -13,7 +13,7 @@ const Features = () => {
       {/* cards  */}
       <div className="w-[90%] md:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem]">
         {/* 1st cards  */}
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <div className="p-6 hover:bg-white rounded-lg transition-all duration-300">
             <Image src={img1} alt="img-1" className="rounded-3xl" />
             <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
@@ -26,7 +26,11 @@ const Features = () => {
           </div>
         </div>
         {/* 2nd card   */}
-        <div>
+        <div
+          data-aos="zoom-in"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="p-6 hover:bg-white lg:translate-y-[3rem] rounded-lg transition-all duration-300">
             <Image src={img2} alt="img-1" className="rounded-3xl" />
             <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
@@ -40,7 +44,11 @@ const Features = () => {
         </div>
 
         {/* 3rd burger  */}
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-delay="400"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="p-6 hover:bg-white rounded-lg transition-all duration-300">
             <Image src={img3} alt="img-1" className="rounded-3xl" />
             <h1 className="mt-[1.5rem] text-center text-[24px] text-black font-semibold">
