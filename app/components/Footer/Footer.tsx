@@ -12,9 +12,9 @@ const Footer = () => {
             </h1>
           </div>
           <p className="text-white text-opacity-60 mt-[.3rem]">
-            Indulge in the extraordinary. Every bite is a masterpiece." 🍔✨
-            Join us on a gastronomic adventure, where passion meets the palate
-            and cravings find their match.
+            Indulge in the extraordinary. Every bite is a masterpiece. Join us
+            on a gastronomic adventure, where passion meets the palate and
+            cravings find their match.
           </p>
           <p className="text-white mt-[1rem]">mostakememon123@gmai.com</p>
           <p className="text-red-300 text-[19px] font-bold">+880-1849545637</p>
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-gray-600 hover:text-yellow-500 text-center mt-[1.3rem] text-[18px]">
-        &copy; 2024 Burger Bite. All rights reserved.
+        copyright 2024 Burger Bite. All rights reserved.
       </p>
     </div>
   );

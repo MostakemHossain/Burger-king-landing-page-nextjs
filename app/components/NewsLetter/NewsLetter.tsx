@@ -7,11 +7,10 @@ const NewsLetter = () => {
         </h1>
         <p className="text-black text-opacity-70 w-[85%] md:w-[60%] mx-auto">
           Craving mouth-watering burgers? Subscribe to our newsletter and be the
-          first to know about exclusive burger deals and promotions. Whether
-          you're a fan of classic cheeseburgers or adventurous with gourmet
+          first to know about exclusive burger deals and promotions. Whether you
+          are a fan of classic cheeseburgers or adventurous with gourmet
           options, our newsletter brings you sizzling offers that will make your
-          taste buds dance. Don't miss out on the juiciest updates – sign up
-          now!
+          taste buds dance. Dont miss out on the juiciest updates – sign up now!
         </p>
         <div className="flex items-center space-x-2 mt-[3rem] justify-center">
           <input
