@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Oswald } from "next/font/google";
+import Footer from "./components/Footer/Footer";
 import ResponsiveNav from "./components/Navgiation/ResponsiveNav";
 import "./globals.css";
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={barlow_condensed.className}>
         <ResponsiveNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
