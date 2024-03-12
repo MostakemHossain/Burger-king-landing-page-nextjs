@@ -2,6 +2,7 @@ import Delivary from "./Delivary/Delivary";
 import Features from "./Features/Features";
 import Hero from "./Hero/Hero";
 import PopularBurger from "./PopularBurger/PopularBurger";
+import Reservaion from "./Reservation/Reservaion";
 import Team from "./Team/Team";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <PopularBurger />
       <Delivary />
       <Team />
+      <Reservaion />
     </div>
   );
 };
